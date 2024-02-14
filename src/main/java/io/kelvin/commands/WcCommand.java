@@ -13,9 +13,10 @@ import java.util.stream.Stream;
         name = "pro-wc",
         mixinStandardHelpOptions = true,
         version = "Word count 1.0",
-        description = "Print  newline,  word,  and  byte counts for each FILE, and a total line if more than one\n" +
-                "FILE is specified.  A word is a non-zero-length sequence of printable  characters  delim‐ited\n" +
-                "by white space.")
+        description = """
+                Print  newline,  word,  and  byte counts for each FILE, and a total line if more than one
+                FILE is specified.  A word is a non-zero-length sequence of printable  characters  delim‐ited
+                by white space.""")
 public class WcCommand implements Runnable {
 
     @Parameters(index = "0")
